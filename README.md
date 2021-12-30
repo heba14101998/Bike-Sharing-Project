@@ -18,6 +18,10 @@ events in the city could be detected via monitoring these data.
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
 publicly available in [capital bike share](http://capitalbikeshare.com/system-data).
 
+#### Dataset Files
+- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
+- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
+
 #### Dataset characteristics
 	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
@@ -51,11 +55,3 @@ Predication of bike rental count hourly or daily based on the environmental and 
 ### Event and Anomaly Detection:  
 Count of rented bikes are also correlated to some events in the town which easily are traceable via search engines.
 For instance, query like "2012-10-30 washington d.c." in Google returns related results to Hurricane Sandy. Therefore the data can be used for validation of anomaly or event detection algorithms as well.
-
-
-## Files
----
-
-	- Readme.txt
-	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
-	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
